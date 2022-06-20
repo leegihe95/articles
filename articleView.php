@@ -6,7 +6,7 @@
         <?php // (index.php) if the request is on a URL that does not contain 'id', then display href
         if(!isset($_REQUEST['id'])) {
         ?>
-            <a href="comments.php?id=<?php echo $data->id?>"><em>Comments</em></a>
+            <a href="comments.php?id=<?php echo $data->id?>"><em>See article</em></a>
         <?php
         }
         ?>

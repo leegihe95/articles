@@ -1,0 +1,41 @@
+h1{
+    color: darkslategray;
+    text-align : center;
+}
+h3{
+    text-align : center;
+    background-color : cadetblue;
+    color : white;
+    font-size : 0.9em;
+    margin-bottom : 0px;
+    padding: 3px;
+}
+.news p{
+    background-color: white;
+    margin-top: 0px;
+    border: 1px solid cadetblue;
+}
+.news{
+    width : 60%;
+    margin : auto;
+}
+a{
+    text-decoration : none;
+    color : darkgray;
+}
+fieldset{
+    width: 500px;
+    margin: auto;
+}
+#comment{
+    vertical-align: middle;
+}
+#commentSec{
+    width: 525px;
+    margin: 5px auto;
+    box-shadow: 0px 0px 2px 0px black;
+}
+#user{
+    background-color: beige;
+    width: 525px;
+}

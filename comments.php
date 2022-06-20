@@ -2,46 +2,9 @@
 <html>
     <head>
         <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css">
         <title>Single Article</title>
     </head>
-    <style>
-        h3{
-            text-align : center;
-        }
-        h3{
-            background-color : black;
-            color : white;
-            font-size : 0.9em;
-            margin-bottom : 0px;
-        }
-        .news p{
-            background-color : #CCCCCC;
-            margin-top : 0px;
-        }
-        .news{
-            width : 70%;
-            margin : auto;
-        }
-        a{
-            text-decoration : none;
-            color : blue;
-        }
-        fieldset{
-            width: 500px;
-        }
-        #comment{
-            vertical-align: middle;
-        }
-        #commentSec{
-            width: 500px;
-            box-shadow: 0px 0px 2px 0px black;
-        }
-        #user{
-            background-color: #CCCCCC;
-            width: 500px;
-        }
-    
-    </style>
     <body>
         <?php 
             if(!empty($_GET)){
